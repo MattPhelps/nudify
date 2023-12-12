@@ -17,6 +17,7 @@ import va from "@vercel/analytics";
 import useSWR from "swr";
 import { Rings } from "react-loader-spinner";
 import { Testimonials } from "../components/Testimonials";
+import { GA_TRACKING_ID, pageview } from '../analytics';
 
 // Configuration for the uploader
 const uploader = Uploader({
@@ -115,6 +116,18 @@ const Home: NextPage = () => {
       <Head>
         <title>Nudify – AI Clothes Remover</title>
         <link rel="icon" href="/devil.webp" />
+
+        <script
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GA_TRACKING_ID}');
+          `,
+        }}
+      />
+
       </Head>
 
       <Header/>
