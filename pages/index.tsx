@@ -116,7 +116,8 @@ const Home: NextPage = () => {
       <Head>
         <title>Nudify – AI Clothes Remover</title>
         <link rel="icon" href="/devil.webp" />
-
+        
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-7PP7WW8P1S"></script>
         <script
         dangerouslySetInnerHTML={{
           __html: `
