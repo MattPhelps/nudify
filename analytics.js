@@ -1,4 +1,5 @@
-export const GA_TRACKING_ID = "G-7PP7WW8P1S"; // Replace with your GA tracking ID
+import siteConfig from './siteConfig';
+export const GA_TRACKING_ID = siteConfig.GATag; // Replace with your GA tracking ID
 
 // Log the pageview with their URL
 export const pageview = (url) => {
