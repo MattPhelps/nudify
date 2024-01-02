@@ -19,7 +19,7 @@ const Comparison = () => {
                 <h2 className="mb-1 font-medium text-lg">Original Image</h2>
                 <Image
                   alt="Original image"
-                  src="/babe.jpg"
+                  src="/images/home/babe.jpg"
                   className="w-96 h-96 rounded-2xl"
                   width={400}
                   height={400}
@@ -31,7 +31,7 @@ const Comparison = () => {
                   alt="Nudify enhanced image"
                   width={400}
                   height={400}
-                  src="/naked-babe.jpg"
+                  src="/images/home/naked-babe.jpg"
                   className="w-96 h-96 rounded-2xl sm:mt-0 mt-2"
                 />
               </div>

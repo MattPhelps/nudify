@@ -11,7 +11,7 @@ const Features = () => {
     >
       <div className="max-w-[1222px] mx-auto px-4 sm:px-8 xl:px-0">
         <SectionTitle
-          title={`How to Use Nudify`}
+          title={`How to Nudify`}
           paragraph=""
         />
 

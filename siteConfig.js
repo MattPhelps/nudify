@@ -1,7 +1,7 @@
 const siteConfig = {
   gitHubRepo: "https://github.com/mattphelps/nudify",
   baseSiteName: "Nudify",
-  baseSite: "https://nudify.c/o",
+  baseSite: "https://nudify.co/",
   siteName: "Nudify",
   siteURL: "https://nudify.co/",
   siteTitle: "Nudify – AI Clothes Remover",
@@ -18,7 +18,6 @@ const siteConfig = {
   promotedBrandURL: "https://www.linkconnector.com/ta.php?lc=165043000007007573&lc_pid=Promo-42525&url=https://ytsaver.net/",
   promotedBrandSlug: "itubego",
   headerButtonCTA: "Download HD - All Sites",
-  smartlink: "https://flirttalkonline.life/?u=qf5kaeb&o=wgkpxhg",
 };
 
 export default siteConfig;

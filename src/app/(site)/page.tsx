@@ -9,6 +9,7 @@ import Faq from "@/components/Faq";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Comparison from "@/components/Home/Comparison";
+import Image from 'next/image';
 
 const pageTitle = `${siteConfig.siteTitle}`;
 const pageDescription = `${siteConfig.siteDescription}`;
