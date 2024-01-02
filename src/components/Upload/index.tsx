@@ -1,15 +1,15 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import siteConfig from "../../../../siteConfig";
+import siteConfig from "../../../siteConfig";
 import { useState, useRef } from "react";
 import React, { useEffect } from 'react';
-import UploadDropzone from '../../UploadDropzone/uploadDropzone';
+import UploadDropzone from '../UploadDropzone/uploadDropzone';
 
 const Upload = () => {
 
-  const handleCTAClick = (files) => {
-    window.location.href = '/upload'; // Replace with your desired URL
+  const handleFileUpload = (files) => {
+    console.log(files); // Here, you can handle the uploaded files
 };
 
   return (
@@ -31,15 +31,9 @@ const Upload = () => {
           {/* Grouped Input and Button */}
           <div className="flex justify-center items-center mb-4">
 
-          <a
-              onClick={handleCTAClick}
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ "--main-color": siteConfig.buttonColor } as any}
-              className="button-styling inline-flex rounded-lg py-3 px-7 text-white font-medium ease-in duration-300 hover:opacity-80"
-            >
-              Try Nudify
-            </a>
+          <div className="container mx-auto">
+            <UploadDropzone onFileUpload={handleFileUpload} />
+        </div>
           </div>
         </div>
       </div>

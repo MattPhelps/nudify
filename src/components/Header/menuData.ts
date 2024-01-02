@@ -1,12 +1,12 @@
 import { Menu } from "@/types/menu";
 
 const menuData: Menu[] = [
-//  {
-  //  id: 1,
-    //title: "Remove Clothes",
-    //newTab: false,
-    //path: "/upload",
-  //},
+  {
+    id: 1,
+    title: "Remove Clothes",
+    newTab: false,
+    path: "/upload",
+  },
  {
     id: 2,
     title: "How to Nudify",
