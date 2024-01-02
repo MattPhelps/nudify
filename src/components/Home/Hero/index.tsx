@@ -9,7 +9,6 @@ import React, { useEffect } from 'react';
 import UploadDropzone from '../../UploadDropzone/uploadDropzone';
 
 const Hero = () => {
-
   const handleFileUpload = (files) => {
     console.log(files); // Here, you can handle the uploaded files
 };
