@@ -6,45 +6,35 @@ import siteConfig from '../../../siteConfig';
 const faqData: FAQ[] = [
   {
     id: 74,
-    question: `What is ${siteConfig.siteName}?`,
+    question: `What is Nudify?`,
     answer:
-     `${siteConfig.siteName} is a free online tool that enables you to download YouTube videos in various formats and resolutions. The advantages of using ${siteConfig.siteName} include speedy downloads, high-quality video and audio, and the option to save videos for offline viewing.`,
+     `AI clothes removers involve the creation of artwork or images depicting nudity through the use of artificial intelligence algorithms. These sophisticated algorithms undergo training on expansive datasets containing human figures and nude imagery, allowing them to discern patterns, shapes, and textures associated with the human form.
+
+     The resulting AI-generated nude art can manifest in diverse forms, such as paintings, illustrations, or digital renderings. By analyzing and interpreting the patterns identified during training, the AI algorithms generate new images or artwork that emulates the style and characteristics of human nudity.`,
   },
   {
     id: 75,
-    question: `Why Should You Use ${siteConfig.siteName} to Download ${siteConfig.baseSiteName} Videos?`,
+    question: `How Does Nudify Work?`,
     answer:
-     `${siteConfig.siteName} is a tool to help you download ${siteConfig.baseSiteName} videos for free. ${siteConfig.siteName} is developed based on many outstanding technologies that allow you to download MP4, 3GP, WEBM, MP3, M4A videos from ${siteConfig.baseSiteName} quickly without installing supporting software. Born later than other ${siteConfig.baseSiteName} video download tools. But ${siteConfig.siteName} has more outstanding and easy-to-use features that make it easy and simple for users to download videos from ${siteConfig.baseSiteName}.`,
+     `AI nude generator typically operates by undergoing training on extensive datasets containing explicit or nude images. During this training process, the AI model learns intricate patterns, features, and textures associated with nudity. Subsequently, it applies this acquired knowledge to generate new images that simulate or bear resemblance to nudity.`,
   },
   {
     id: 76,
-    question: `How Do I Download a Video using ${siteConfig.siteName}?`,
+    question: `Is Nudify Safe?`,
     answer:
-    `To download a ${siteConfig.baseSiteName} video using ${siteConfig.siteName}, simply copy the video URL and paste it into the search bar on the ${siteConfig.baseSiteName} website. Then select the desired format and resolution and click the download button. It’s that simple!`,
-  },
-  {
-    id: 77,
-    question: `What Format Will My Downloaded Video Come In?`,
-    answer:
-    `${siteConfig.siteName} supports a wide range of video and audio formats, including MP4, AVI, FLV, MOV, WMV, and more. You can also choose from different resolutions, such as 720p or 1080p, based on your preferences.`,
+    `We  prioritize user privacy by implementing measures to safeguard sensitive data. Reportedly, the platform does not retain user photos on a permanent basis, demonstrating a commitment to ensuring the confidentiality of user information.`,
   },
   {
     id: 78,
-    question: `How Long Does it Take to Download a Video?`,
+    question: `How Long Does it Take to Nudify an Image?`,
     answer:
-    `The download time varies depending on the video's size and your internet connection speed. Generally, most videos are downloaded within a few seconds. However, higher quality videos or slower connections may increase the time.`,
+    `Between 3 - 10 seconds.`,
   },
   {
     id: 79,
-    question: `Is ${siteConfig.siteName} Safe to Use?`,
+    question: `How Much Does Nudify Cost?`,
     answer:
-    `${siteConfig.siteName} is a free online tool that enables you to download ${siteConfig.baseSiteName} videos in various formats and resolutions. The advantages of using ${siteConfig.siteName} include speedy downloads, high-quality video and audio, and the option to save videos for offline viewing.`,
-  },
-  {
-    id: 80,
-    question: `Is it Legal to Download Videos from ${siteConfig.baseSiteName}?`,
-    answer:
-    `The legality of video downloading is contingent upon the content's copyright restrictions and the legal regulations of your country. Downloading videos from ${siteConfig.baseSiteName} for personal use or non-commercial purposes is generally permissible, but redistributing, selling, or using the content in other public domains without consent from the rightful owners might violate copyright laws. Always ensure you have the right to download and use the content to avoid legal complications.`,
+    `Nudify is currently free to everyone.`,
   },
 ];
 

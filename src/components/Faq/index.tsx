@@ -19,7 +19,7 @@ const Faq = () => {
 
       <div className="max-w-[770px] mx-auto px-4 sm:px-8 xl:px-0">
         <SectionTitle
-          title="Frequently Asked Questions"
+          title="Questions"
           paragraph=""
         />
 

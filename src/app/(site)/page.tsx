@@ -1,7 +1,4 @@
-import CallToAction from "@/components/CallToAction";
-import Head from 'next/head';
 import Features from "@/components/Home/Features";
-import FeaturesList from "@/components/Home/FeaturesList";
 import Hero from "@/components/Home/Hero";
 import { Metadata } from "next";
 import siteConfig from '../../../siteConfig';
@@ -9,7 +6,6 @@ import Faq from "@/components/Faq";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Comparison from "@/components/Home/Comparison";
-import Image from 'next/image';
 
 const pageTitle = `${siteConfig.siteTitle}`;
 const pageDescription = `${siteConfig.siteDescription}`;
@@ -26,6 +22,7 @@ export default function Home() {
       <Hero />
       <Comparison />
       <Features />
+      <Faq />
       <Footer /> 
     </>
   );
