@@ -11,7 +11,7 @@ const siteConfig = {
   adminEmail: "matt@leandme.com",
   downloaderList: "nsfw",
   colorTheme: "light",
-  buttonColor: "#793a87",
+  buttonColor: "#8b3eff",
   GATag: "G-7PP7WW8P1S",
   functional: "no",
   promotedBrand: "YTSaver",
